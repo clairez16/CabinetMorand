@@ -1,0 +1,38 @@
+.footer {
+  min-height: 150px;
+  background-color: rgba(23, 42, 69, 1);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+
+.footer-info {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 0px;
+}
+
+.fas {
+  margin: 12.5px 5px 12.5px 0px;
+}
+
+.far {
+  margin: 12.5px 5px 12.5px 0px;
+}
+
+.footer-row {
+  margin: 10px;
+}
