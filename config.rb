@@ -1,3 +1,6 @@
+# Uses .env in the root of the project
+activate :dotenv
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
