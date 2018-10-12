@@ -16,5 +16,6 @@
 }
 
 .container-page {
-  min-height: 200vh;
+  min-height: calc(100vh - 90px - 200px);
+  background-color: #eef2f6;
 }

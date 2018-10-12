@@ -1,0 +1,31 @@
+.titre-banniere {
+  background-color: rgba(113, 160, 191, 1);
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 490px;
+}
+
+.titre-banniere h1 {
+  font-weight: lighter;
+  font-size: 24px;
+  letter-spacing: 0.5em;
+  margin: auto 0;
+}
+
+.banniere {
+  background-color: white;
+  height: 115px;
+  display: flex;
+}
+
+.prendre-rdv {
+  text-align: right;
+  width: calc(100% - 490px)
+}
+
+.when-scroll {
+  padding-top: 90px;
+}
