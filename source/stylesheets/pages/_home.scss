@@ -1,7 +1,6 @@
-#home {
+#index {
   background-color: #D23333;
   color: white;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -14,4 +13,8 @@
     font-weight: bold;
     font-size: 16px;
   }
+}
+
+.container-page {
+  min-height: 200vh;
 }
