@@ -1,6 +1,3 @@
-# Uses .env in the root of the project
-activate :dotenv
-
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
@@ -26,6 +23,3 @@ end
 
 # Use “pretty” URLs (without the `.html` suffix)
 activate :directory_indexes
-
-# Append hashes to compiled assets
-activate :asset_hash
