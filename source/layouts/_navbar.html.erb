@@ -1,10 +1,9 @@
 <div id="navbar">
   <!-- Logo -->
-  <a href="/" class="navbar-logo">
+  <% link_to 'Accueil', '/index.html', class:'navbar-logo' do%>
     <h3>Kinésithérapeutes</h3>
     <h2>CABINET MORAND</h2>
-  </a>
-
+  <% end %>
   <!-- Right Navigation -->
   <div class="navbar-droite hidden-xs hidden-sm">
     <%= link_to 'Accueil', '/index.html', class:'navbar-element navbar-lien' %>
