@@ -13,7 +13,7 @@
 }
 
 .acces {
-  height: 31.5%;
+  height: 48%;
   width: 100%;
   background-color: white;
   border-radius: 7px;
@@ -27,5 +27,10 @@
 }
 
 .pratique-texte {
+  height: 100%;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
