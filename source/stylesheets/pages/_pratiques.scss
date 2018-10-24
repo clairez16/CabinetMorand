@@ -1,0 +1,31 @@
+#pratique {
+  padding: 40px 60px;
+}
+
+.map {
+  height: calc(100vh - 130px);
+  width: 100%;
+}
+
+.details {
+  height: calc(100vh - 130px);
+  width: 100%;
+}
+
+.acces {
+  height: 31.5%;
+  width: 100%;
+  background-color: white;
+  border-radius: 7px;
+  margin: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.acces .col-xs-12 {
+  padding: 0px;
+}
+
+.pratique-texte {
+  padding: 15px;
+}
