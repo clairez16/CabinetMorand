@@ -14,6 +14,9 @@
   </head>
   <body>
     <%= partial "layouts/navbar" %>
+    <% if current_page.data.title != "Accueil" %>
+      <%= partial "layouts/bannieretitre" %>
+    <% end %>
     <%= yield %>
     <%= partial "layouts/footer" %>
     <% if current_page.data.title != "Infos pratiques" %>

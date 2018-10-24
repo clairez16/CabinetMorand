@@ -1,29 +1,39 @@
-.titre-banniere {
-  background-color: $light-blue;
-  height: 100%;
+#banniere {
+  background-color: white;
   color: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  max-width: 490px;
+  font-weight: lighter;
 }
 
-.titre-banniere h1 {
+.titre-banniere {
+  background-color: $light-blue;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.titre-banniere h2 {
   font-weight: lighter;
   font-size: 24px;
   letter-spacing: 0.5em;
-  margin: auto 0;
+  margin: 33px;
 }
 
-.banniere {
-  background-color: white;
-  height: 115px;
-  display: flex;
+.prendre-rdv h5 {
+  color: $dark-blue;
+  letter-spacing: 0.1em;
 }
 
 .prendre-rdv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: right;
-  width: calc(100% - 490px)
+}
+
+.prendre-rdv p {
+  color: $light-blue;
+  font-size: 22px;
+  margin: 0px;
 }
 
 .when-scroll {
