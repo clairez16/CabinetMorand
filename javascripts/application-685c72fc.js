@@ -11,7 +11,7 @@
  *
  * Date: 2014-12-17T15:27Z
  */
-function myFunction(){const e=document.getElementById("navbar"),t=document.body,n=e.offsetTop;t.classList.add("when-scroll"),window.pageYOffset>=n?e.classList.add("sticky"):e.classList.remove("sticky")}/*!
+function myFunction(){const e=document.getElementById("navbar"),t=document.getElementById("banniere"),n=e.offsetTop;t.classList.add("when-scroll"),window.pageYOffset>=n?e.classList.add("sticky"):e.classList.remove("sticky")}/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under the MIT license
