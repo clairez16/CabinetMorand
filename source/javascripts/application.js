@@ -9,8 +9,13 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
   const nav = document.getElementById('navbar');
   const banniere = document.getElementById('banniere')
+  const body = document.body
   const sticky = nav.offsetTop;
-  banniere.classList.add("when-scroll")
+  if (banniere !== null) {
+    banniere.classList.add("when-scroll")
+  } else {
+    body.classList.add("when-scroll")
+  }
   if (window.pageYOffset >= sticky) {
     nav.classList.add("sticky")
   } else {
