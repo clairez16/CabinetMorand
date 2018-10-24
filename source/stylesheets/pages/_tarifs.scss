@@ -1,5 +1,9 @@
 .tarif-card {
   background-color: white;
+  border-radius: 7px;
+  margin: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
 }
 
 #tarifs {
@@ -7,20 +11,46 @@
 }
 
 .tarif-titre {
-  background-color: #9abd97;
+  background-color: $dark-blue;
   color: white;
+  display: flex;
   text-align: center;
+  justify-content: center;
   height: 50px;
+  border-radius: 7px 7px 0px 0px;
 }
 
 .tarif-titre h2 {
   font-weight: lighter;
   font-size: 24px;
   letter-spacing: 0.3em;
+  margin: auto 0px;
 }
 
-.tarif-detail {
+.tarif-prix {
+  display: flex;
   text-align: center;
   justify-content: center;
   height: 150px;
+}
+
+.tarif-prix h3 {
+  font-size: 66px;
+  font-weight: 300;
+  margin: auto 0px;
+}
+
+
+.tarif-detail {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.tarif-prix h3 {
+  font-size: 66px;
+  font-weight: 300;
+  margin: auto 0px;
 }
